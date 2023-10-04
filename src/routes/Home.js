@@ -2,8 +2,11 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import heroimage from "../assets/5.jpg"
 import Destination from "../components/Destination";
-import Trip from "../components/Trip";
+import Services from "../components/Services";
 import Footer from "../components/Footer";
+import "../components/AboutUsStyles.css";
+import MainArea from "../components/MainArea";
+import Focus from "../components/Focus";
 
 function Home () {
     return (
@@ -12,14 +15,16 @@ function Home () {
             <Hero
                 cName="hero"
                 heroImg={heroimage}
-                title="Your Journey Your Story"
-                text="Choose Your Favourite Destination"
-                buttonText="Travel Plan"
+                title="Building and Innovating together"
+                text="Leveraging advanced technologies to deliver scalable solutions that exceed expectations"
+                buttonText="Get Started"
                 url="/"
                 btnClass="show"
             />
             <Destination/>
-            <Trip/>
+            <MainArea/>
+            <Services/>
+            <Focus/>
             <Footer/>
         </>
     )

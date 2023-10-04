@@ -8,9 +8,11 @@ import DestinationData from "./DestinationData";
 const Destination = () => {
     return (
         <div className="destination">
-            <h1>Popular Destination</h1>
-            <p>Tours give you the opportunity to do a lot within a time frame</p>
-
+            <div className="heading">
+                <h1>We Are Magilatech</h1>
+                <p>Helping Businesses disrupt, accelerate and scale from ideation to delivery, we build next-gen software solutions that drive innovation and social impact</p>
+            </div>
+            
            <DestinationData
                 className="first-des"
                 heading="Tall volcano, Batanga"

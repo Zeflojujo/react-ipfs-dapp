@@ -6,13 +6,13 @@ const Footer = () => {
         <div className="footer">
             <div className="top">
                 <div>
-                    <h1>Trippy</h1><br/>
+                    <h1>MagilaTech</h1><br/>
                     <p>14th Floor Noble Center</p>
                     <p>Victoria, Makumbusho</p>
                     <p>Dar es Saalam</p><br/>
 
                     <p><b>Phone 1: </b> +255 719 616 657</p>
-                    <p><b>Phone 2: </b> +255 719 616 657</p>
+                    <p><b>Phone 2: </b> +255 746091570</p>
                     <p><b>Email: </b> zeflojujo53@gmail.com</p>
                 </div>
 

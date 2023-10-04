@@ -8,6 +8,7 @@
     width: 100%;
     height: 70vh;
     position: relative;
+
 }
 
 .hero-mid h1 {
@@ -25,20 +26,23 @@ img{
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    padding: 30px;
 }
 
 .hero-text h1 {
     font-size: 3rem;
-    font-weight: 800;
-    background-color: #fff;
+    font-weight: 500;
+    background-color: #eee;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
 }
 .hero-text p{
     font-size: 1.3rem;
-    color: #fff;
+    color: #ccc;
     padding: 0.5rem 0 2rem 0;
 }
 
@@ -58,14 +62,29 @@ img{
 }
 
 @media screen and (max-width: 555px) {
+
+    .hero-text {
+        position: absolute;
+        width: 80% !important;
+        position: absolute;
+        top: 55%;
+        margin-left: 20px;
+        background-color: rgba(0, 0, 0, 0.4);
+        text-align: start;
+        padding: 30px;
+    }
+    
     .hero-text h1 {
-        padding: 10px 20px;
+        font-size: 3rem;
+        font-weight: 500;
+        background-color: #eee;
+        padding: 0 0 1.5rem 0;
         font-size: 2.5rem;
     }
 
     .hero-text p {
         font-size: 1.1rem;
-        padding: 0 0 2rem 0;
+        padding: 0 0 1.5rem 0;
     }
 
     .hero-text .show {
@@ -73,5 +92,13 @@ img{
         border-radius: 6px;
         font-size: 1rem;
 
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .hero-text {
+        position: absolute;
+        width: 70% !important;
     }
 }

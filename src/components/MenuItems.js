@@ -18,7 +18,7 @@ export const MenuItems = [
         icon : "fa-solid fa-briefcase"
     },{
         title : "Products",
-        url : "/products",
+        url : "/projects",
         cName : "nav-links",
         icon : "fa-solid fa-briefcase"
     },
