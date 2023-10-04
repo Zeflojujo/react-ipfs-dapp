@@ -1,0 +1,222 @@
+.container {
+    margin: 4rem 6rem;
+}
+
+.container .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.container .main div {
+    margin: 0 1rem;
+    height: 300px;
+    width: 50%;
+}
+
+.container .main div img{
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: -1px 1px 62px -18px rgba(0,0,0,0.19);
+    border-radius: 7px;
+}
+
+.container .main div .mainHeading1 {
+    width: 90%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    top: -10px;
+    z-index: 99999;
+    margin-top: -110px;
+}
+
+.container .main div .mainHeading2 {
+    width: 90%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    top: -10px;
+    z-index: 99999;
+    margin-top: -110px;
+}
+
+.container .main div .mainHeading1 h4{
+    font-weight: 100;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.container .main div .mainHeading2 h4{
+    font-weight: 100;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.container .main div .mainHeading1 p{
+    color: #eee;
+    font-size: 1rem;
+}
+
+.container .main div .mainHeading2 p{
+    color: #eee;
+    font-size: 1rem;
+}
+
+.heading{
+    margin: 4rem 6rem;
+    color: #2a2a2a;   
+}
+
+.heading h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 1.3rem;
+}
+
+.heading h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1.3rem;
+}
+
+.heading p{
+    font-size: 1.3rem;
+    color: #bbb;
+    font-weight: 500;
+}
+
+.horizontalLine {
+    margin: 4rem 6rem;
+}
+
+.about-container {
+    margin: 4rem 6rem;
+    text-align: start;
+}
+
+.about-container h1{
+    padding-bottom: 1rem;
+    font-weight: 500;
+}
+
+.about-container p{
+    line-height: 1.5rem;
+    color: #ccc;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.middle-section {
+    padding: 2rem 6rem;
+    background-color: #222;
+    text-align: start;
+}
+
+.middle-section hr{
+    width: 25%;
+}
+
+.middle-section div {
+    margin-bottom: 2rem;
+}
+
+.middle-section div h1 {
+    color: #fff;
+    font-weight: 500;
+
+}
+
+.middle-section div h2 {
+    color: #fff;
+    font-weight: 400;
+}
+
+.middle-section div p {
+    color: #aaa;
+    line-height: 40px;
+}
+
+
+
+@media screen and (max-width: 850px) {
+    .about-container {
+        margin: 4rem 2rem;
+    }
+
+    .container {
+        margin: 2rem 2rem;
+    }
+
+    .container .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+
+    .container .main div {
+        margin: 1rem 1rem;
+        height: 300px;
+        width: 100%;
+        
+    }
+
+    .container .main div .mainHeading1 h4{
+        font-size: 1.3rem;
+    }
+    
+    .container .main div .mainHeading2 h4{
+        font-size: 1.3rem;
+    }
+    
+    .container .main div .mainHeading1 p{
+        font-size: 0.8rem;
+    }
+    
+    .container .main div .mainHeading2 p{
+        font-size: 0.8rem;
+    }
+
+    .heading{
+        margin: 4rem 2rem;
+        color: #2a2a2a;   
+    }
+
+    .heading p{
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    .horizontalLine {
+        margin: 4rem 2rem;
+        opacity: 0.5;
+        border-bottom: 10px;
+    }
+    .middle-section{
+        padding: 2rem 2rem;
+        background-color: #111;
+        text-align: start;
+    }
+
+    .middle-section hr{
+        width: 75%;
+    }
+
+    .middle-section div {
+        margin-bottom: 3rem;
+    }
+
+    .middle-section div h1 {
+        color: #fff;
+        font-weight: 500;
+        font-size: 1.8rem;
+    
+    }
+
+    .middle-section div p {
+        color: #aaa;
+        line-height: 25px;
+    }
+}
+
