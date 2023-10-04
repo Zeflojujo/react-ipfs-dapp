@@ -1,5 +1,5 @@
-import image1 from "../assets/5.jpg"
-import image2 from "../assets/6.jpg";
+import image1 from "../assets/48.jpg"
+import image2 from "../assets/36.jpg";
 
 function Focus () {
     return (

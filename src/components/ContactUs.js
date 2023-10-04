@@ -1,6 +1,6 @@
 import "./AboutUsStyles.css";
-import image1 from "../assets/5.jpg"
-import image2 from "../assets/6.jpg";
+import image1 from "../assets/42.jpg"
+import image2 from "../assets/46.jpg";
 
 function ContactUs () {
     return (
