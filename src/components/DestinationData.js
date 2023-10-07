@@ -1,8 +1,4 @@
 import { Component } from "react";
-import tour1 from "../assets/37.jpg";
-import tour2 from "../assets/38.jpg";
-import tour3 from "../assets/47.jpg";
-import tour4 from "../assets/34.jpg";
 import "./DestinationStyles.css";
 
 class DestinationData extends Component {
@@ -17,7 +13,7 @@ class DestinationData extends Component {
             </div>
 
             <div className="image">
-                <img alt="image" src={this.props.img1}/>
+                <img alt="imaged" src={this.props.img1}/>
                 <img alt="images" src={this.props.img2}/>
             </div>
         </div> 

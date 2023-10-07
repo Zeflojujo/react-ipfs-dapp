@@ -47,6 +47,14 @@
 
 .des-text h2 {
     padding-bottom: 1rem;
+    color: #555;
+    font-weight: 540;
+}
+
+.des-text p{
+    color: #999;
+    font-size: 1.2rem;
+    line-height: 1.4;
 }
 
 .image {
@@ -99,6 +107,10 @@
 
     .des-text h2 {
         padding-bottom: 0.8rem;
+    }
+
+    .des-text p {
+        font-size: 1rem;
     }
 
     .image {

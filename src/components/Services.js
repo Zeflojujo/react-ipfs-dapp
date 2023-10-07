@@ -1,5 +1,5 @@
 import ServiceData from "./ServiceData";
-import "./TripStyles.css";
+import "./ServiceStyles.css";
 import Trip1 from "../assets/44.jpeg";
 import Trip2 from "../assets/49.jpg";
 import Trip3 from "../assets/45.jpeg";

@@ -15,20 +15,16 @@ const Destination = () => {
             
            <DestinationData
                 className="first-des"
-                heading="Tall volcano, Batanga"
-                text="One of the most iconic views in Luzon, ML Taal boosta a bolcano inside a lake inside an island. If you fancy a coser loo. the hike up to the crator is a more 45 minutes, and is easy enough for beginners Guides will assist you most of the way.
-                and you'll soo the paculiar environment found on an active volcano. including bolcanic rocks and steam vents. 
-                The hike can be dusty and hot. so plan for on early morning trip. and then unwind with some bulolo before heading back home"
+                heading="OUR CLIENTS"
+                text="Tigo backup application has greatly helped our customers backup data through their mobile phones, I can't say enough abouyt how well it is tailored to the needs of TIGO customers, It is definitely one of the best movile apps that we have ever purchased for a long time. Thank you Magilatech it has been an honor working with you."
                 img1={tour1}
                 img2={tour2}
            />
 
            <DestinationData
                 className="first-des-reverse"
-                heading="Mt.Daguldul, Batangas"
-                text="If you're looking for a hike that's a little more challenging but still good for a beginner 
-                mountaineer, check out Mt. Daguladul in San Juan, Batangas. You;l start your hike from the beach and pass through trapical forest, different rock formations,
-                and small streams. Therels a small store halfway up the trail where you can take a beak and drink buka juice, and though the summit itself may not have the best view, the breeze is fantastic, Once you've made it back down, head straight to the beach for a refreshing well-deserved swim."
+                heading="OUR PRODUCTS"
+                text="At Magilatech, we strive to deliver more than what is typically offered. It means more than just solutions we design and build. We are also connected to our customers and invested in their success. We understand that an enterprise can not afford to build a solution that only works today but must scale for tomorrow."
                 img1={tour3}
                 img2={tour4}
            />

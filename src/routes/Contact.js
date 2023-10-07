@@ -1,8 +1,9 @@
+
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import heroimage from "../assets/49.jpg"
 import Footer from "../components/Footer";
-import ContactUs from "../components/ContactUs";
+import ContactForm from "../components/ContactForm";
 
 function Contact () {
     return (
@@ -15,7 +16,7 @@ function Contact () {
                 text="We Would be happy to hear from you."
                 btnClass="hide"
             />
-            <ContactUs/>
+            <ContactForm/>
             <Footer/>
         </>
     )

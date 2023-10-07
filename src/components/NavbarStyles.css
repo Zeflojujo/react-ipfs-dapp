@@ -17,8 +17,9 @@
 
 .navbar-logo {
     color: #222;
-    font-size: 2rem;
+    font-size: 1.8rem;
     cursor: pointer;
+    font-weight: 500;
 }
 
 .nav-menu {
@@ -27,6 +28,10 @@
     grid-gap: 10px;
     list-style: none;
     align-items: center;
+
+}
+
+.nav-links:focus {
 
 }
 
@@ -48,6 +53,8 @@
     color: #333;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
+    border-bottom: 3px solid #0dda2b;
+
 }
 
 .nav-links-mobile{
@@ -166,5 +173,10 @@ button:active{
     menu-icons i{
         font-size: 1.2rem;
         color: #222;
+    }
+
+    .navbar-logo {
+        color: #222;
+        font-size: 1.5rem;
     }
 }

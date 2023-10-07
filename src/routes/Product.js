@@ -1,8 +1,10 @@
+
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import heroimage from "../assets/40.jpg"
 import Footer from "../components/Footer";
 import Products from "../components/Products";
+
 
 function Contact () {
     return (
