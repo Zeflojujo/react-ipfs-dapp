@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="footer">
             <div className="top">
                 <div>
-                    <h1>MagilaTech</h1><br/>
+                    <h2>DSG TECHNOLOGY</h2><br/>
                     <p>14th Floor Noble Center</p>
                     <p>Victoria, Makumbusho</p>
                     <p>Dar es Saalam</p><br/>
@@ -17,11 +17,9 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    
-                    
-                </div>
-
-                <div>
+                    <a href="/">
+                        <i className="fa-brands fa-twitter-square"></i>
+                    </a>
                     <a href="/">
                         <i className="fa-brands fa-facebook-square"></i>
                     </a>
@@ -30,9 +28,6 @@ const Footer = () => {
                     </a>
                     <a href="/">
                         <i className="fa-brands fa-behance-square"></i>
-                    </a>
-                    <a href="/">
-                        <i className="fa-brands fa-twitter-square"></i>
                     </a>
                 </div>
                 
@@ -55,18 +50,10 @@ const Footer = () => {
                     <a href="/">Penetration Testing</a>
                     <a href="/">IT System Auditing</a>
                 </div>
-                <div>
+                <div className="about">
                     <h4>About Us</h4>
-                    <a href="/">Developers</a>
-                    <a href="/">Troubleshooting</a>
-                    <a href="/">Contact Us</a>
-                </div>
-                <div>
-                    <h4>Others</h4>
-                    <a href="/">Terms of Service</a>
-                    <a href="/">Privacy Plicy</a>
-                    <a href="/">License</a>
-                    <a href="/">License</a>
+                    <p>In 2012, DSGTechnology was founded with a clear mission to transform software development and cybersecurity solutions in Africa and beyond. Since its inception, DSGTechnology has grown from a startup incubatee, to a high growth technology company serving clients across the globe.</p>
+                    <h2><i>Information Security Policy</i></h2>
                 </div>
             </div>
 
@@ -74,7 +61,7 @@ const Footer = () => {
 
         </div>
         <div className="lower">
-            <p>&copy; Magillatech 2023, All rights are reserved.</p>
+            <p>&copy; DSGTechnology 2023, All rights are reserved.</p>
         </div>
         </>
         

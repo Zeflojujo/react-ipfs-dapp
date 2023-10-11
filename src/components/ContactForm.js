@@ -5,7 +5,7 @@ function ContactForm () {
     return (
         <>
             <div className="heading">
-                <h1>Contact Us</h1>
+                <h1>CONTACT US</h1>
                 <p>We respect your privacy and Keep your data completely confidential.</p>
             </div>
             <hr className="horizontalLine"/>

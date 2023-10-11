@@ -1,24 +1,31 @@
 .footer{
     padding: 4rem 6rem;
     background: #222;
-    color: #fcfcfc;
+    color: #fff;
+    line-height: 1.8;
+    margin-bottom: 0;
+    width: 100%;
 }
 
 .top {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     text-align: start;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.top p{
+.top h2 {
+    font-size: 24px;
+}
+
+.top p {
     color: #999;
 }
 
 .top i {
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-left: 1rem;
 }
 
@@ -33,6 +40,23 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.bottom .about {
+    width: 100%;
+}
+.bottom .about p {
+    position: relative;
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.bottom .about h2 {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+}
 
 .bottom div {
     display: flex;
@@ -46,7 +70,7 @@
 
 .bottom a {
     text-decoration: none;
-    color: #999;
+    color: #ccc;
     padding-bottom: 0.4rem;
     font-size: 1rem;
 }
@@ -61,7 +85,7 @@
 }
 
 .lower p {
-    color:#ddd;
+    color:#fff;
     padding: 1.8rem;
     font-size: .9rem;
 }
@@ -70,6 +94,16 @@
     .footer {
         padding: 4rem 2rem;
     }
+    .footer .top{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .footer .bottom{
+        display: flex;
+        flex-direction: column;
+    }
 
     .footer i {
         margin: 1rem 1rem 0 0;
@@ -77,5 +111,14 @@
 
     .bottom div {
         width: 50%;
+    }
+
+    .top h2 {
+        font-size: 18px;
+    }
+
+    .bottom h4 {
+        font-size: 1.2rem;
+        padding: 1rem 0 .8rem 0;
     }
 }

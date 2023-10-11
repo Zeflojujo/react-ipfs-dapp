@@ -42,13 +42,13 @@
 
 .container .main div .mainHeading1 h4{
     font-weight: 100;
-    color: #fff;
+    color: #f7f7f7;
     font-size: 1.7rem;
 }
 
 .container .main div .mainHeading2 h4{
     font-weight: 100;
-    color: #fff;
+    color: #f7f7f7;
     font-size: 1.7rem;
 }
 
@@ -81,7 +81,7 @@
 
 .heading p{
     font-size: 1.3rem;
-    color: #bbb;
+    color: #999;
     font-weight: 500;
 }
 
@@ -96,14 +96,15 @@
 
 .about-container h1{
     padding-bottom: 1rem;
+    font-size: 25px;
     font-weight: 500;
 }
 
 .about-container p{
     line-height: 1.5rem;
-    color: #ccc;
+    color: #666;
     padding-bottom: 2rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 400;
 }
 
@@ -122,14 +123,18 @@
 }
 
 .middle-section div h1 {
-    color: #fff;
+    color: #f7f7f7;
     font-weight: 500;
-
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .middle-section div h2 {
-    color: #fff;
+    color: #f7f7f7;
     font-weight: 400;
+    font-size: 23px;
+    padding-bottom: 10px;
+
 }
 
 .middle-section div p {
@@ -142,6 +147,10 @@
 @media screen and (max-width: 850px) {
     .about-container {
         margin: 4rem 2rem;
+    }
+
+    .about-container h1{
+        font-size: 22px;    
     }
 
     .container {
@@ -208,10 +217,17 @@
     }
 
     .middle-section div h1 {
-        color: #fff;
+        color: #f7f7f7;
         font-weight: 500;
-        font-size: 1.8rem;
+        font-size: 1.7rem;
+        line-height: 1.5rem;
+
     
+    }
+
+    .middle-section div h2 {
+        font-size: 18px;
+        line-height: 1.5rem;
     }
 
     .middle-section div p {
