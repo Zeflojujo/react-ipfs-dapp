@@ -10,7 +10,7 @@
 }
 
 .container .main div {
-    margin: 0 1rem;
+    margin: 0 3rem;
     height: 300px;
     width: 50%;
 }
@@ -109,7 +109,7 @@
 }
 
 .middle-section {
-    padding: 2rem 6rem;
+    padding: 4rem 6rem;
     background-color: #222;
     text-align: start;
 }
