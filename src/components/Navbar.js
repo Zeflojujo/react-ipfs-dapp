@@ -32,6 +32,11 @@ class Navbar extends Component {
                     ))}
                     {/* <button>Sign Up</button> */}
                 </ul>
+                <div className="nav-menu">
+                    <Link className="nav-links" to="/">
+                        Report Incident
+                    </Link>
+                </div>
             </nav>
         )
     }

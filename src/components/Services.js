@@ -1,8 +1,11 @@
 import ServiceData from "./ServiceData";
 import "./ServiceStyles.css";
-import Trip1 from "../assets/44.jpeg";
+import Trip1 from "../assets/44.jpg";
 import Trip2 from "../assets/49.jpg";
-import Trip3 from "../assets/45.jpeg";
+import Trip3 from "../assets/45.jpg";
+import Trip4 from "../assets/51.jpg";
+import Trip5 from "../assets/33.jpg";
+import Trip6 from "../assets/52.jpg";
 
 function Trip () {
     return (
@@ -34,17 +37,17 @@ function Trip () {
             </div>
             <div className="tripcard2">
             <ServiceData
-                    image={Trip3}
+                    image={Trip4}
                     heading = "System Integration"
                     text = "We offer API development and API integration services spanning a wide range of industries. We specialize in developing and integrating APIs for the Web, mobile applications and cloud. Our APIs integra..."
             />
             <ServiceData
-                image={Trip3}
+                image={Trip5}
                 heading = "System Integration"
                 text = "We offer API development and API integration services spanning a wide range of industries. We specialize in developing and integrating APIs for the Web, mobile applications and cloud. Our APIs integra..."
             />
             <ServiceData
-                image={Trip3}
+                image={Trip6}
                 heading = "System Integration"
                 text = "We offer API development and API integration services spanning a wide range of industries. We specialize in developing and integrating APIs for the Web, mobile applications and cloud. Our APIs integra..."
             />

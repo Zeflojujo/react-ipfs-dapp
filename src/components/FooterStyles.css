@@ -1,4 +1,6 @@
 .footer{
+    display: flex;
+    flex-direction: row;
     padding: 4rem 6rem;
     background: #222;
     color: #fff;
@@ -11,7 +13,7 @@
     display: flex;
     /* align-items: center; */
     text-align: start;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
 }
 
@@ -92,6 +94,7 @@
 
 @media screen and (max-width: 850px) {
     .footer {
+        
         padding: 4rem 2rem;
     }
     .footer .top{
