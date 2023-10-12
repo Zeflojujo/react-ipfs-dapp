@@ -25,7 +25,6 @@ class Navbar extends Component {
                     {MenuItems.map((item, index) => (
                         <li key={index}>
                             <Link className={item.cName} to={item.url}>
-                                <i className={item.icon}></i>
                                 {item.title}
                             </Link>
                         </li>
@@ -34,7 +33,7 @@ class Navbar extends Component {
                 </ul>
                 <div className="nav-menu">
                     <Link className="nav-links" to="/">
-                        Report Incident
+                        REPORT AN INCIDENT
                     </Link>
                 </div>
             </nav>
