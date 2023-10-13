@@ -88,6 +88,12 @@
     margin-bottom: 0.5rem;
 } */
 
+.container .heading h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
 .container .heading h2 {
     font-size: 2rem;
     font-weight: 600;
@@ -240,6 +246,11 @@
     }
 
     .heading h2 {
+        font-size: 1.8rem;
+    }
+
+    .heading h1 {
+        font-size: bold;
         font-size: 1.8rem;
     }
 }

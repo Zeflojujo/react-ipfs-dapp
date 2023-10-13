@@ -12,15 +12,12 @@
     margin-top: 2rem;
 }
 
-/* .form-container .heading{
-    border-top: 10px solid #0275d8;
+.heading h1{
     font-size: 2rem;
     color: #666;
     font-weight: 600;
     width: 100%;
-    margin: 6rem 0 0 0 !important;
-    padding: 4rem 0 1rem 0;
-} */
+}
 
 .form-container input{
     height: 3rem;
@@ -126,9 +123,9 @@
     font-size: 1rem;
 } */
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 990px) {
     .form-container{
-        margin: 4rem 2rem;
+        margin: 2rem 1rem;
     }
 
     .form-container form{
@@ -138,6 +135,43 @@
 
     .form-container textarea{
         height: 300px;
+    }
+
+    .form-container .form .wide {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-container .form .wide .first-half .input1{
+        height: 3rem;
+        padding: 0 1rem;
+        margin-bottom: 1.5rem;
+        border-radius: 0.3rem;
+        margin-right: 0;
+    }
+
+    .form-container .form .wide .second-half span {
+        margin-left: 0;
+    }
+    
+    .form-container .form .wide .second-half .input2{
+        padding: 0 1rem;
+        margin-bottom: 1.5rem;
+        margin-left: 0 !important;
+    }
+
+    .form-container input{
+        margin-bottom: 1.5rem;
+    }
+
+    .form-container textarea{
+        margin-bottom: 1.5rem;
+        height: 100px;
+    }
+
+    .form-container select{
+        margin-bottom: 1.5rem;
     }
 
     /* .form-container .container{
@@ -177,4 +211,5 @@
         font-size: 1rem;
         padding: 12px;
     }
+
 }
