@@ -1,20 +1,24 @@
 .footer{
-    /* display: flex; */
-    /* flex-direction: row; */
+    display: flex;
+    flex-direction: row;
     padding: 4rem 6rem;
     background: #222;
     color: #fff;
     line-height: 1.8;
     margin-bottom: 0;
     width: 100%;
+    /* justify-content: space-between; */
+
 }
 
-.top {
-    /* display: flex; */
+.footer .top {
+    display: flex;
+    flex-direction: column;
     /* align-items: center; */
     text-align: start;
-    /* justify-content: space-between; */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    margin-right: 20px;
+    min-width: 20%;
 }
 
 .top h2 {
@@ -36,18 +40,26 @@
 }
 
 .bottom {
-    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
     text-align: start;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-left: 100px;
+    max-width: 80%;
+}
+
+.bottom .services {
+    width: 20%;
 }
 .bottom .about {
-    width: 100%;
+    width: 30%;
 }
 .bottom .about p {
     position: relative;
-    width: 100% !important;
+    min-width: 40% !important;
     margin: 0;
     padding: 0;
     font-size: 1rem;
@@ -113,6 +125,10 @@
         margin: 1rem 1rem 0 0;
     }
 
+    .bottom{
+        margin: 0;
+    }
+
     .bottom div {
         width: 50%;
     }
@@ -124,5 +140,13 @@
     .bottom h4 {
         font-size: 1.2rem;
         padding: 1rem 0 .8rem 0;
+    }
+
+    .bottom .about {
+        width: 100%;
+    }
+
+    .bottom .services {
+        width: 100%;
     }
 }
