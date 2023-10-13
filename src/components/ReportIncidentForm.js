@@ -1,4 +1,4 @@
-import "./ContactFormStyles.css";
+import "./ReportIncidentStyles.css";
 import "./AboutUsStyles.css";
 
 function ReportIncidentForm () {
@@ -11,11 +11,30 @@ function ReportIncidentForm () {
             <hr className="horizontalLine"/>
 
             <div className="form-container">
-                <form>
-                    <input placeholder="Choose an incident type"/>
+                <form className="form">
+                    <span>What has happened ?</span>
+                    <select placeholder="Choose an incident type">
+                        <option>Choose an incident type</option>
+                        <option>Money Theft</option>
+                        <option>Fraud</option>
+                        <option>Malware</option>
+                        <option>Intrusion</option>
+                    </select>
+
+                    <span>Describe the Details</span>
                     <textarea placeholder="Describe the Details" rows={4}></textarea>
-                    <input placeholder="Email Address"/>
-                    <input placeholder="Mobile Phone"/>
+                    <div className="wide">
+                        <div className="first-half">
+                            <span>Email Address</span>
+                            <input className="input1" placeholder="Email Address"/>
+                        </div>
+                        <div className="second-half">
+                            <span>Mobile Phone</span>
+                            <input className="input2" placeholder="Mobile Phone"/>
+                        </div>
+                    </div>
+
+                    <span>Organization Name (optional)</span>
                     <input placeholder="Organization Name (optional)"/>
                     <button>Submit Incident</button>
                 </form>
