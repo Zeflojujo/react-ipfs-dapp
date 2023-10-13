@@ -32,7 +32,7 @@ class Navbar extends Component {
                     {/* <button>Sign Up</button> */}
                 </ul>
                 <div className="nav-menu">
-                    <NavLink className="nav-links" to="/">
+                    <NavLink className="nav-links" to="/incident">
                         REPORT AN INCIDENT
                     </NavLink>
                 </div>
