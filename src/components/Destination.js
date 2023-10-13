@@ -9,7 +9,7 @@ const Destination = () => {
     return (
         <div className="destination">
             <div className="heading">
-                <h1>We Are Magilatech</h1>
+                <h1>We Are DSG TECHNOLOGY</h1>
                 <p>Helping Businesses disrupt, accelerate and scale from ideation to delivery, we build next-gen software solutions that drive innovation and social impact</p>
             </div>
             

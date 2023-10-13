@@ -1,7 +1,7 @@
 import { Component } from "react";
 import "./NavbarStyles.css";
 import { MenuItems } from "./MenuItems";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "../assets/logo.jpg"
 
 class Navbar extends Component {
@@ -21,20 +21,20 @@ class Navbar extends Component {
                     <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
                 </div>
 
-                <ul className={this.state.clicked ? "nav-menu active" : "nav-menu    "}>
+                <ul className={this.state.clicked ? "nav-menu activee" : "nav-menu    "}>
                     {MenuItems.map((item, index) => (
                         <li key={index}>
-                            <Link className={item.cName} to={item.url}>
+                            <NavLink className={item.cName} to={item.url}>
                                 {item.title}
-                            </Link>
+                            </NavLink>
                         </li>
                     ))}
                     {/* <button>Sign Up</button> */}
                 </ul>
                 <div className="nav-menu">
-                    <Link className="nav-links" to="/">
+                    <NavLink className="nav-links" to="/">
                         REPORT AN INCIDENT
-                    </Link>
+                    </NavLink>
                 </div>
             </nav>
         )
