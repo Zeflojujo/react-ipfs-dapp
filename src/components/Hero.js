@@ -7,14 +7,17 @@ function Hero (props) {
                 <img alt="heroImage" src={props.heroImg} />
 
                 <div className="hero-text">
-                    <h1>{props.title}</h1>
-                    <p>{props.text}</p>
-                    <a 
-                        href={props.url} 
-                        className={props.btnClass}
-                    >
-                        {props.buttonText}
-                    </a>
+                    <div className="hero-inner">
+                        <h1>{props.title}</h1>
+                        <p>{props.text}</p>
+                        <a 
+                            href={props.url} 
+                            className={props.btnClass}
+                        >
+                            {props.buttonText}
+                        </a>
+                    </div>
+                    
                 </div>
             </div>
         </>

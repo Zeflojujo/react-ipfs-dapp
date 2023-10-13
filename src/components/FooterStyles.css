@@ -55,7 +55,7 @@
     width: 20%;
 }
 .bottom .about {
-    width: 30%;
+    width: 40%;
 }
 .bottom .about p {
     position: relative;
@@ -104,7 +104,7 @@
     font-size: .9rem;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 990px) {
     .footer {
         display: flex;
         flex-direction: column !important;

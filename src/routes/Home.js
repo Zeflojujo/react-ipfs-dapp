@@ -6,6 +6,7 @@ import Destination from "../components/Destination";
 import Services from "../components/Services";
 import Footer from "../components/Footer";
 import "../components/AboutUsStyles.css";
+import "../components/MainAreaStyles.css";
 import MainArea from "../components/MainArea";
 import Focus from "../components/Focus";
 

@@ -52,7 +52,7 @@ const Footer = () => {
                 </div>
                 <div className="about">
                     <h4>About Us</h4>
-                    <p>In 2012, DSGTechnology was founded with a clear mission to transform software development and cybersecurity solutions in Africa and beyond. Since its inception, DSGTechnology has grown from a startup incubatee, to a high growth technology company serving clients across the globe.</p>
+                    <p>In 2012, DSG Technology was founded with a clear mission to transform software development and cybersecurity solutions in Africa and beyond. Since its inception, DSGTechnology has grown from a startup incubatee, to a high growth technology company serving clients across the globe.</p>
                     <h2><i>Information Security Policy</i></h2>
                 </div>
             </div>

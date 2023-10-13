@@ -13,7 +13,7 @@ function Products () {
         <div className="trip">
         <div className="heading">
             <h1>OUR DIGITAL SOLUTIONS</h1>
-            <p>At Magilatech, We strive to deliver more than what is typically offered. It means more than just solutions we design and build. We are also connected to our customers and invested in their success. We understand that an enterprise can not afford to build a solution that only works today byt must scale for tomorrow.</p>
+            <p>At DSG Technology, We strive to deliver more than what is typically offered. It means more than just solutions we design and build. We are also connected to our customers and invested in their success. We understand that an enterprise can not afford to build a solution that only works today byt must scale for tomorrow.</p>
         </div>
         <hr className="horizontalLine"/>
 
