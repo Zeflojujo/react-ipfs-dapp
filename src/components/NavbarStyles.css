@@ -119,9 +119,8 @@ button:activee{
     }
     .nav-menu li {
         border-bottom: 1px solid #444;
-        width: 100%;
+        width: auto;
         align-items: flex-start;
-        margin: ;
     }
 
     
