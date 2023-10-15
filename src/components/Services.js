@@ -7,7 +7,7 @@ import Trip4 from "../assets/51.jpg";
 import Trip5 from "../assets/33.jpg";
 import Trip6 from "../assets/52.jpg";
 
-function Trip () {
+function Services () {
     return (
         <div className="trip">
             <div className="heading">
@@ -56,4 +56,4 @@ function Trip () {
     )
 }
 
-export default Trip;
+export default Services;

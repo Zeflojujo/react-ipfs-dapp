@@ -9,6 +9,7 @@ import "../components/AboutUsStyles.css";
 import "../components/MainAreaStyles.css";
 import MainArea from "../components/MainArea";
 import Focus from "../components/Focus";
+import OurClients from "../components/OurClients";
 
 function Home () {
     return (
@@ -27,6 +28,7 @@ function Home () {
             <MainArea/>
             <Services/>
             <Focus/>
+            <OurClients/>
             <Footer/>
         </>
     )

@@ -117,13 +117,12 @@ button:activee{
         margin-top: 60px;
         transition: 0.3s ease-in-out;
     }
+    
     .nav-menu li {
         border-bottom: 1px solid #444;
-        width: auto;
+        width: 100%;
         align-items: flex-start;
     }
-
-    
 
     .nav-menu.activee {
         left: 0;
