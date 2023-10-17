@@ -15,7 +15,7 @@ function ContentServiceData(props) {
                 <p>{props.text5}</p>
             </div>
             
-            <p className="header2">{props.header2}</p>
+            <h4 className="header2">{props.header2}</h4>
         </>
     )
 }
