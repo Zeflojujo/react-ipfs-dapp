@@ -3,6 +3,7 @@ import ContentService from './ContentService';
 import Navbar from "../Navbar";
 import ContentServiceData from "./ContentServiceData";
 import Trip1 from "../../assets/40.jpg";
+import Footer from "../Footer";
 
 function MobilePhone() {
   return (
@@ -13,6 +14,9 @@ function MobilePhone() {
             <ContentServiceData
                 image={Trip1}
                 header='Mobile Phone Forensics'
+                text1 = 'The use of mobile devices has exploded in the modern-day and age. Thus, the use of Mobile Phone Forensics for investigations due to crimes and corporate espionage has also increased more than enough. Every device which stores data can be investigated via Mobile Phone Forensics.'
+                text2 = 'Mobile Phone Forensics is the branch of forensic science which helps to analyze and detect electronic data. At Magilatech , our reliable and highest quality Mobile Phone Forensics investigation services help to investigate frauds, data thefts, and crimes of a digital nature.'
+                header2 = 'What we Offer At Magilatech in Mobile Phone Forensics'
             />
 
 
@@ -29,6 +33,8 @@ function MobilePhone() {
             </div>
         </div>
     </div>
+
+    <Footer/>
     </>
   )
 }

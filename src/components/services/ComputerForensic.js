@@ -3,6 +3,7 @@ import ContentService from './ContentService';
 import Navbar from "../Navbar";
 import ContentServiceData from "./ContentServiceData";
 import Trip1 from "../../assets/32.jpg";
+import Footer from "../Footer";
 
 function ComputerForensic() {
   return (
@@ -12,7 +13,10 @@ function ComputerForensic() {
         <div className='c-left'>
             <ContentServiceData
                 image={Trip1}
-                header='Computer Forensics'
+                header = 'Computer Forensics'
+                text1 = 'In DSG Technology we have track record combined with the latest forensic tools and technical expertise, security and investigations.'
+                text2 = 'Our Magilatech forensic systems are designed for portability and power when you need work done at another location. Our investment in high speed processing systems and professional software give you an advantage to have your results processed more quickly than others.'
+                header2 = 'At DSG Technology We Offer Computer Forensics Services'
             />
 
 
@@ -29,6 +33,8 @@ function ComputerForensic() {
             </div>
         </div>
     </div>
+
+    <Footer/>
     </>
   )
 }

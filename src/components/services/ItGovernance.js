@@ -3,6 +3,7 @@ import ContentService from './ContentService';
 import Navbar from "../Navbar";
 import ContentServiceData from "./ContentServiceData";
 import Trip1 from "../../assets/38.jpg";
+import Footer from "../Footer";
 
 function ItGovernance() {
   return (
@@ -13,6 +14,7 @@ function ItGovernance() {
             <ContentServiceData
                 image={Trip1}
                 header='IT Governance'
+                text1 = 'IT governance is a critical component of corporate governance, it provides a useful tool for benchmarking the balance and effectiveness of IT governance practices within an organization. It also provides structured guidance on how to approach practical assistance and guidance for practitioners in an Organization.'
             />
 
         </div>
@@ -27,6 +29,8 @@ function ItGovernance() {
             </div>
         </div>
     </div>
+
+    <Footer/>
     </>
   )
 }

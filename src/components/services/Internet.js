@@ -3,6 +3,7 @@ import ContentService from './ContentService';
 import Navbar from "../Navbar";
 import ContentServiceData from "./ContentServiceData";
 import Trip1 from "../../assets/37.jpg";
+import Footer from "../Footer";
 
 function Internet() {
   return (
@@ -13,6 +14,9 @@ function Internet() {
             <ContentServiceData
                 image={Trip1}
                 header='Internet & Mobile Banking Security Testing'
+                text1 = 'DSG Technology is a team of professional cyber security testers with a tried-and-proven testing strategy for financial applications. Since 2012, we’ve completed dozens of projects across multiple industries, including core banking system testing projects. We’ve provided small, medium, and big enterprises with confidence and a stable application performance.'
+                text2 = 'Our cyber security experts employ a combination of automated tests using the latest tools and technology along with manual testing and examination. We examine web and mobile applications used externally and internally and underlying databases (oracle mssql, postgres. etc) for any misconfigurations, vulnerabilities and test for web attacks.'
+                header2 = 'In Magilatech We test across the full spectrum of potential vulnerabilities including the top threats identified by the Open Web Application Security Project (OWASP)'
             />
 
 
@@ -29,6 +33,8 @@ function Internet() {
             </div>
         </div>
     </div>
+
+    <Footer/>
     </>
   )
 }

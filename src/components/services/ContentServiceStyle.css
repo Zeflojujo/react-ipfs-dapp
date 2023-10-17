@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 7rem 5rem;
+    margin: 7rem 6rem;
 }
 
 .c-container .c-left {
@@ -16,22 +16,52 @@
     margin-right:2rem;
 }
 
+.c-container .c-left .c-textH {
+    margin-top: 10px;
+    margin-right: 2rem;
+    margin-bottom: 30px;
+}
+
+.c-container .c-left h2 {
+    font-size: 1.85rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.c-container .c-left .header2 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-top: 20px;
+    border-left: 2px solid #0275d8;
+    font-style: italic;
+    color: #999;
+    align-items: center;
+    padding: 15px 20px;
+    letter-spacing: -.5px;
+}
+
+.c-container .c-left .c-textH p{
+    font-size: .9rem;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
 .c-container .c-left .c-image img {
-    /* width:  */
+    height: 83vh;
 }
 
 .c-container .c-right {
-    width: 30%;
-    margin-right: 5%;
+    width: 25%;
+    margin-right: 3%;
     text-align: start;
-    padding-right: 6rem;
+    padding-right: 4rem;
 }
 .c-container .c-right .above {
     margin-bottom: 2rem;
 }
 
 .c-container .c-right .above h4 {
-    font-weight: 200;
+    font-weight: 400;
     margin-bottom: 10px;
     font-size: 13px;
 }
@@ -64,6 +94,11 @@
     line-height: 2rem;
     font-size: 12px;
     padding-bottom: 10px;
+}
+
+.c-container .c-right .below ul li a.active {
+    color: #0275d8;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 990px) {

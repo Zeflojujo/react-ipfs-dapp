@@ -3,6 +3,7 @@ import ContentService from './ContentService';
 import Navbar from "../Navbar";
 import ContentServiceData from "./ContentServiceData";
 import Trip1 from "../../assets/36.jpg";
+import Footer from "../Footer";
 
 function Incidents() {
   return (
@@ -13,6 +14,8 @@ function Incidents() {
             <ContentServiceData
                 image={Trip1}
                 header='Incidents Mananagement'
+                text1 = 'We have set of procedures and actions taken to respond to and resolve critical incidents, as we identify, analyze, and correct hazards to prevent a future re-occurrence. Therefore the process of limiting the potential disruption caused by such an event, followed by a return to business as usual is what we do as we manage Incidents in Magilatech.'
+                header2 = 'DSG Technology Incident Management supports the incident management process in the following ways'
             />
 
 
@@ -29,6 +32,8 @@ function Incidents() {
             </div>
         </div>
     </div>
+
+    <Footer/>
     </>
   )
 }
