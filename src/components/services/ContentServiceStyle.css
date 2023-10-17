@@ -137,6 +137,14 @@
     .c-container .c-left .c-image img {
         height: 60vh;
     }
+
+    .c-container .c-right .below ul li{
+        list-style: none;
+        margin-bottom: 10px;
+        width: 90%;
+        border-bottom: 1px solid #ddd;
+    
+    }
     
 }
 
