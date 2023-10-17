@@ -155,12 +155,12 @@
         text-align: start;
         justify-content: flex-start;
         align-items: flex-start;
-        margin: 4rem 2rem;
     }
 
     .c-container .c-right {
-        width: 95% !important;
+        width: 100% !important;
         text-align: start;
+        margin: 4rem 1rem;
     }
 
     .c-container .c-left {
@@ -168,6 +168,7 @@
         text-align: start;
         margin-bottom: 4rem;
         margin-left: 0 !important;
+        margin: 2rem 0rem;
     }
 
     .c-container .c-right {
