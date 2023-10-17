@@ -2,7 +2,7 @@ import "./ContentServiceStyle.css";
 import ContentService from './ContentService';
 import Navbar from "../Navbar";
 import ContentServiceData from "./ContentServiceData";
-import Trip1 from "../../assets/37.jpg";
+import Trip1 from "../../assets/51.jpg";
 
 function SystemInte() {
   return (

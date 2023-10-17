@@ -2,7 +2,7 @@ import "./ContentServiceStyle.css";
 import ContentService from './ContentService';
 import Navbar from "../Navbar";
 import ContentServiceData from "./ContentServiceData";
-import Trip1 from "../../assets/39.jpg";
+import Trip1 from "../../assets/49.jpg";
 
 function MobileApp() {
   return (
