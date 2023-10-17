@@ -4,6 +4,7 @@ import Navbar from "../Navbar";
 import ContentServiceData from "./ContentServiceData";
 import Trip1 from "../../assets/38.jpg";
 import Footer from "../Footer";
+import ContentServiceData2 from "./ContentServiceData2";
 
 function Vulnerabilities() {
   return (
@@ -21,13 +22,17 @@ function Vulnerabilities() {
                 header2 = 'As DSG Technology We Offer these types of Vulnerability Assessment'
             />
 
+            <ContentServiceData2
+                header3 = "Outsource Vulnerability Assessment Services from DSG Technology"
+                text1 = "Let DSG Technology unleash the true potential of your company and lead a successful application transformation for reduced costs of operations and greater returns on your company's investments. Our team of expert is ready to give all Vulnerability Assessment services. Schedule an appointment with one of our experts today."
+            />
 
 
         </div>
         <div className='c-right'>
             <div className='above'>
                 <h4>About</h4>
-                <p>In 2012, DSG Technology was founded with a clear mission to transform software development and cybersecurity solutions in Africa and beyond. Since its inception, Magilatech has grown from a startup incubatee, to a high growth technology company serving clients across the globe.</p>
+                <p>In 2012, DSG Technology was founded with a clear mission to transform software development and cybersecurity solutions in Africa and beyond. Since its inception, DSG Technology has grown from a startup incubatee, to a high growth technology company serving clients across the globe.</p>
             </div>
 
             <div className='below'>

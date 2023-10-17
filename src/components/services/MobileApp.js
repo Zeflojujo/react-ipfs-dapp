@@ -4,6 +4,7 @@ import Navbar from "../Navbar";
 import ContentServiceData from "./ContentServiceData";
 import Trip1 from "../../assets/49.jpg";
 import Footer from "../Footer";
+import ContentServiceData2 from "./ContentServiceData2";
 
 function MobileApp() {
   return (
@@ -18,6 +19,12 @@ function MobileApp() {
                 header2 = 'Why Choose Magilatech for Mobile App Development?'
             />
 
+
+            <ContentServiceData2
+                header3 = "Outsource Mobile App Development"
+                text1 = "At Magilateh, we follow industry best practices and offer you nothing but the best services, while still maintaining considerably low development costs as compared to our competitors. We have talented team mobile app developers, streamlined 8-step mobile app development processes, and more importantly, the ability to scale up to meet your demands. Outsource mobile app development to us and get access to a series of benefits."
+                text2 = "Get in touch with us now, and see for yourselves how our mobile application development services can help you expand your customer base, grow your business, and reach out to whole new demographics in as short a time as possible."
+            />
 
 
         </div>

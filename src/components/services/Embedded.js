@@ -4,6 +4,7 @@ import Navbar from "../Navbar";
 import ContentServiceData from "./ContentServiceData";
 import Trip1 from "../../assets/33.jpg";
 import Footer from "../Footer";
+import ContentServiceData2 from "./ContentServiceData2";
 
 function Embedded() {
   return (
@@ -20,11 +21,16 @@ function Embedded() {
                 header2 = 'Our Embedded Software Development Services'
             />
 
+            <ContentServiceData2
+                header3 = "Outsource Embedded Software Development Services to DSG Technology"
+                text1 = "DSG Technology provides highly customized and high-quality embedded software development services to clients from all over the world. Our team uses the latest and best-embedded software tools and technologies to always provide cutting-edge services. Our dedication to quality and accuracy have also ensured that clients keep coming back to us for more. If you're looking for high-quality and cost-effective embedded software development services, get in touch with us today!"
+            />
+
         </div>
         <div className='c-right'>
             <div className='above'>
                 <h4>About</h4>
-                <p>In 2012, DSG Technology was founded with a clear mission to transform software development and cybersecurity solutions in Africa and beyond. Since its inception, Magilatech has grown from a startup incubatee, to a high growth technology company serving clients across the globe.</p>
+                <p>In 2012, DSG Technology was founded with a clear mission to transform software development and cybersecurity solutions in Africa and beyond. Since its inception, DSG Technology has grown from a startup incubatee, to a high growth technology company serving clients across the globe.</p>
             </div>
 
             <div className='below'>

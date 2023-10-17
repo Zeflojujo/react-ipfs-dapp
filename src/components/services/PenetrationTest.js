@@ -4,6 +4,7 @@ import Navbar from "../Navbar";
 import ContentServiceData from "./ContentServiceData";
 import Trip1 from "../../assets/52.jpg";
 import Footer from "../Footer";
+import ContentServiceData2 from "./ContentServiceData2";
 
 function PenetrationTest() {
   return (
@@ -22,13 +23,22 @@ function PenetrationTest() {
                 header2 = 'What We Test at DSG Technology'
             />
 
+            <ContentServiceData2
+                header3 = "What you gain after Network Security Assessment / Penetration test"
+                text1 = "Preventing financial loss through fraud (hackers, extortionists and disgruntled employees)"
+                text2 = "Protecting your brand by avoiding loss of consumer confidence and business reputation."
+                text3 = "Physical (access controls, dumpster diving etc.)."
+                text4 = "Proving due diligence and compliance to your industry regulators, customers and shareholders."
+                text5 = "Non-compliance can result in your organization losing business, receiving heavy fines, gathering bad PR or ultimately failing."
+            />
+
 
 
         </div>
         <div className='c-right'>
             <div className='above'>
                 <h4>About</h4>
-                <p>In 2012, DSG Technology was founded with a clear mission to transform software development and cybersecurity solutions in Africa and beyond. Since its inception, Magilatech has grown from a startup incubatee, to a high growth technology company serving clients across the globe.</p>
+                <p>In 2012, DSG Technology was founded with a clear mission to transform software development and cybersecurity solutions in Africa and beyond. Since its inception, DSG Technology has grown from a startup incubatee, to a high growth technology company serving clients across the globe.</p>
             </div>
 
             <div className='below'>
