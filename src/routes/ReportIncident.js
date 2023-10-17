@@ -12,7 +12,7 @@ function ReportIncident () {
             <Hero
                 cName="hero-mid"
                 heroImg={heroimage}
-                title="Report a Ciber Incident"
+                title="Report a Cyber Incident"
                 text="We have set of procedure and sections taken to respond to and resolve critical incidents, as we identify, analyze, and correct hazards to prevent a future re- occurence"
                 btnClass="hide"
             />

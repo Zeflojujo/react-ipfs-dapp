@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./ServiceStyles.css";
 
 function ServiceData(props) {
@@ -8,7 +9,7 @@ function ServiceData(props) {
             </div>
             <h4>{props.heading}</h4>
             <p>{props.text}</p>
-            <a href="/">READ MORE</a>
+            <Link to={props.url}>READ MORE</Link>
         </div>
     )
 }

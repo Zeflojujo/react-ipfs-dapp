@@ -22,34 +22,41 @@ function Services () {
                     image={Trip1}
                     heading = "Custom Software Development"
                     text = "Custom software applications that raised specific enterprise needs have become an imperative component of the technology landscape today as the limitations of packaged software become apparent"
+                    url="/CustomDev"
                 />
                 <ServiceData
                     image={Trip2}
                     heading = "Mobile App Development"
                     text = "Are you looking to develop a professinal & innovative mobile app for your business ? Or do you have a mobile app on one platform and want to expand your reach by developing an app on other platforms..."
+                    url="/MobileApp"
                 />
                 <ServiceData
-                    image={Trip3}
-                    heading = "Software maintanance"
-                    text = "We proactively handle the maintenance of software to ensure that your software is bug-free at deployment. We follw the best application software maintenance practices to make your software robust and..."
+                    image={Trip5}
+                    heading = "Embedded System"
+                    text = "Are you looking for embedded software development solutions for things like industrial and home automation applications, embedded silicon, consumer electronics products, and GPS systems? Do you need..."
+                    url = "/Embedded"
                 />
                 
             </div>
             <div className="tripcard2">
             <ServiceData
+                    image={Trip3}
+                    heading = "Software maintanance"
+                    text = "We proactively handle the maintenance of software to ensure that your software is bug-free at deployment. We follw the best application software maintenance practices to make your software robust and..."
+                    url="/SoftwareMaintainance"
+                />
+            <ServiceData
                     image={Trip4}
                     heading = "System Integration"
                     text = "We offer API development and API integration services spanning a wide range of industries. We specialize in developing and integrating APIs for the Web, mobile applications and cloud. Our APIs integra..."
+                    url="/SystemInte"
             />
-            <ServiceData
-                image={Trip5}
-                heading = "System Integration"
-                text = "We offer API development and API integration services spanning a wide range of industries. We specialize in developing and integrating APIs for the Web, mobile applications and cloud. Our APIs integra..."
-            />
+            
             <ServiceData
                 image={Trip6}
-                heading = "System Integration"
-                text = "We offer API development and API integration services spanning a wide range of industries. We specialize in developing and integrating APIs for the Web, mobile applications and cloud. Our APIs integra..."
+                heading = "Penetration Testing"
+                text = "We conduct both internal and external penetration testing. To detect hidden systems flaws during penetration testing, we act like external attackers, trying to bypass protection measures and break int..."
+                url = "/PenetrationTest"
             />
             </div>
         </div>

@@ -10,10 +10,7 @@ function ContactUs () {
             <p>We respect your privacy and Keep your data completely confidential.</p>
         </div>
         <hr className="horizontalLine"/>
-
-
         </>
-        
     )
 }
 
