@@ -162,7 +162,7 @@
     .c-container .c-right {
         width: 100% !important;
         text-align: start;
-        margin: 2rem 0;
+        margin: 2rem 1rem;
     }
 
     .c-container .c-left {
@@ -196,7 +196,7 @@
         text-align: start;
         justify-content: flex-start;
         align-items: flex-start;
-        margin: 3rem 10px;
+        margin: 3rem 15px;
     }
 
     .c-container .c-right {
