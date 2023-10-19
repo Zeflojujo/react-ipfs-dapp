@@ -65,10 +65,8 @@ img{
 @media screen and (max-width: 655px) {
 
     .hero-text {
-        width: 100% !important;
-        margin-left: 0 !important;
-        text-align: start;
-        padding: 15px;
+        position: absolute;
+        width: 80% !important;
     }
     
     .hero-text h1 {
@@ -94,7 +92,7 @@ img{
 
     .hero-text {
         position: absolute;
-        width: 70% !important;
+        width: 80% !important;
     }
 
     .hero-text h1 {
