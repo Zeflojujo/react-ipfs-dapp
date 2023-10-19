@@ -11,7 +11,7 @@ function Focus () {
             <div className="main">
 
                 <div className="focusImage1">
-                    <img alt="mainImage" src={image1} />
+                    <img alt="mainImage" src={image2} />
 
                     <div className="mainHeading1">
                         <h4>Software Development</h4>
@@ -20,7 +20,7 @@ function Focus () {
                 </div>
                 
                 <div className="focusImage2">
-                    <img alt="mainImage2" src={image2} />
+                    <img alt="mainImage2" src={image1} />
 
                     <div className="mainHeading2">
                         <h4>Cyber Security</h4>

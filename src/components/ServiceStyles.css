@@ -57,20 +57,21 @@
     align-items: center !important;
     justify-content: center !important;
     margin-top: 2rem;
-    color: #222;
-    font-weight: 550; 
+    color: #0275d8;
+    font-weight: 500; 
     width:120px;
     padding: 10px;
     border-radius: 5px;
     margin: auto;
     margin-top: 2rem;
-    border: 1px solid #222;
+    border: 1px solid #0275d8;
+    font-size: .9rem;
 }
 
 .t-card a:hover{
-    background-color: #666;
+    background-color: #0275d8;
     color: #eee;
-
+    border: none;
 }
 
 .t-card p {

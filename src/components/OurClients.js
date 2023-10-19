@@ -77,12 +77,6 @@ function OurClients () {
                         <img alt="img1" src={client10}/>
                     </div>
                     <div className="slide">
-                        <img alt="img1" src={client5}/>
-                    </div>
-                    <div className="slide">
-                        <img alt="img1" src={client6}/>
-                    </div>
-                    <div className="slide">
                         <img alt="img1" src={client22}/>
                     </div>
                     <div className="slide">

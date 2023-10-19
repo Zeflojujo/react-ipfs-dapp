@@ -49,6 +49,7 @@
 
 .c-container .c-left .c-image img {
     height: 83vh;
+    border-radius: 6px;
 }
 
 .c-container .c-right {

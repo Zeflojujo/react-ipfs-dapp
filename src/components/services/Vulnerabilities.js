@@ -2,7 +2,7 @@ import "./ContentServiceStyle.css";
 import ContentService from './ContentService';
 import Navbar from "../Navbar";
 import ContentServiceData from "./ContentServiceData";
-import Trip1 from "../../assets/38.jpg";
+import Trip1 from "../../assets/39.jpg";
 import Footer from "../Footer";
 import ContentServiceData2 from "./ContentServiceData2";
 
