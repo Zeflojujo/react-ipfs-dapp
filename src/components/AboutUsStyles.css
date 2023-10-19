@@ -262,3 +262,33 @@
     }
 }
 
+@media screen and (max-width: 700px) {
+    .container .main .focusImage1 {
+        margin: 1rem 2rem;
+        height: 250px;
+        width: 97%;
+    }
+    
+    .container .main .focusImage2 {
+        /* margin: 0 4rem; */
+        margin: 1.5rem 2rem;
+        height: 250px;
+        width: 97%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container .main .focusImage1 {
+        margin: 1rem 2rem;
+        height: 200px;
+        width: 97%;
+    }
+    
+    .container .main .focusImage2 {
+        /* margin: 0 4rem; */
+        margin: 1.5rem 2rem;
+        height: 200px;
+        width: 97%;
+    }
+}
+

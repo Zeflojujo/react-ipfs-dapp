@@ -1,9 +1,6 @@
-// import image1 from "../assets/50.jpg";
-// import image2 from "../assets/38.jpg";
+
 import image1 from "../assets/dsg3.jpg";
 import image2 from "../assets/dsg2.jpg";
-// import "./DestinationStyles.css";
-// import DestinationData from "./DestinationData";
 
 const Destination = () => {
     return (
