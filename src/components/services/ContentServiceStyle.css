@@ -156,12 +156,13 @@
         text-align: start;
         justify-content: flex-start;
         align-items: flex-start;
+        margin: 3rem 1rem;
     }
 
     .c-container .c-right {
         width: 100% !important;
         text-align: start;
-        margin: 4rem 1rem;
+        margin: 2rem 0;
     }
 
     .c-container .c-left {
@@ -170,12 +171,6 @@
         margin-bottom: 4rem;
         margin-left: 0 !important;
         margin: 2rem 0rem;
-    }
-
-    .c-container .c-right {
-        width: 90% !important;
-        text-align: start;
-        margin-left: 0rem;
     }
 
     .c-container .c-left .c-textH {
@@ -191,5 +186,48 @@
 
     .c-container .c-left .c-image img {
         height: 55vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .c-container {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 3rem 10px;
+    }
+
+    .c-container .c-right {
+        width: 100% !important;
+        text-align: start;
+        margin: 0 0 !important;
+    }
+
+    .c-container .c-left {
+        width: 100%;
+        text-align: start;
+        margin-bottom: 3rem;
+        margin-left: 0 !important;
+    }
+
+    .c-container .c-left .c-textH {
+        margin-top: 10px;
+        margin-right: 0rem;
+        margin-bottom: 20px;
+    }
+
+    .c-container .c-left .c-image {
+        margin-right: 0rem;
+        margin-top: 10px;
+    }
+
+    .c-container .c-left .c-image img {
+        height: 55vh;
+    }
+
+    .c-container .c-right .below ul li{
+        width: 90%; 
     }
 }
