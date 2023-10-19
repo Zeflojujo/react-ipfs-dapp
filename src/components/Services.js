@@ -26,19 +26,19 @@ function Services () {
                     image={Trip1}
                     heading = "Custom Software Development"
                     text = "Custom software applications that raised specific enterprise needs have become an imperative component of the technology landscape today as the limitations of packaged software become apparent"
-                    url="/CustomDev"
+                    url="/custom"
                 />
                 <ServiceData
                     image={Trip4}
                     heading = "Mobile App Development"
                     text = "Are you looking to develop a professinal & innovative mobile app for your business ? Or do you have a mobile app on one platform and want to expand your reach by developing an app on other platforms..."
-                    url="/MobileApp"
+                    url="/mobile-app"
                 />
                 <ServiceData
                     image={Trip2}
                     heading = "Embedded System"
                     text = "Are you looking for embedded software development solutions for things like industrial and home automation applications, embedded silicon, consumer electronics products, and GPS systems? Do you need..."
-                    url = "/Embedded"
+                    url = "/embedded"
                 />
                 
             </div>
@@ -53,14 +53,14 @@ function Services () {
                     image={Trip10}
                     heading = "System Integration"
                     text = "We offer API development and API integration services spanning a wide range of industries. We specialize in developing and integrating APIs for the Web, mobile applications and cloud. Our APIs integra..."
-                    url="/SystemInte"
+                    url="/intergration"
             />
             
             <ServiceData
                 image={Trip6}
                 heading = "Penetration Testing"
                 text = "We conduct both internal and external penetration testing. To detect hidden systems flaws during penetration testing, we act like external attackers, trying to bypass protection measures and break int..."
-                url = "/PenetrationTest"
+                url = "/penetration-test"
             />
             </div>
             <div className="tripcard2">
@@ -68,20 +68,20 @@ function Services () {
                     image={Trip7}
                     heading = "Software maintanance"
                     text = "We proactively handle the maintenance of software to ensure that your software is bug-free at deployment. We follw the best application software maintenance practices to make your software robust and..."
-                    url="/SoftwareMaintainance"
+                    url="/maintainance"
                 />
             <ServiceData
                     image={Trip8}
                     heading = "Vulnerability Assessment"
                     text = "With thousands of known vulnerabilities in your systems and countless unknown risks; defensive technologies such as anti-virus and firewalls alone are not enough to stop these attacks. Moreover, as you..."
-                    url="/Vulnerabilities"
+                    url="/vulnerability"
             />
             
             <ServiceData
                 image={Trip9}
                 heading = "Computer Forensics"
                 text = "In DSG Technology we have track record combined with the latest forensic tools and technical expertise, security and investigations and Our DSG Technology forensic systems are designed for portability..."
-                url = "/ComputerForensic"
+                url = "/computer-forensics"
             />
             </div>
         </div>

@@ -1,4 +1,4 @@
-import "./ContentServiceStyle.css";
+import "../ContentServiceStyle.css";
 
 function ContentServiceData(props) {
     return (
@@ -15,7 +15,7 @@ function ContentServiceData(props) {
                 <p>{props.text5}</p>
             </div>
             
-            <h4 className="header2">{props.header2}</h4>
+            {/* <h4 className="header2">{props.header2}</h4> */}
 
         </>
     )

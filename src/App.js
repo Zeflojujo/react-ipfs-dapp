@@ -38,24 +38,24 @@ function App() {
         <Route path="/incident" element={<ReportIncident/>}/>
         <Route path="/projects" element={<Product/>}/>
 
-        <Route path="/customDev" element={<CustomDev/>} />
+        <Route path="/custom" element={<CustomDev/>} />
         <Route path="/AiBig" element={<AiBig/>} />
-        <Route path="/Annual" element={<Annual/>} />
-        <Route path="/Embedded" element={<Embedded/>} />
-        <Route path="/ComputerForensic" element={<ComputerForensic/>} />
-        <Route path="/Enterprise" element={<Enterprise/>} />
-        <Route path="/Fraud" element={<Fraud/>} />
-        <Route path="/Incidents" element={<Incidents/>} />
-        <Route path="/Internet" element={<Internet/>} />
-        <Route path="/ItGovernance" element={<ItGovernance/>} />
-        <Route path="/MobileApp" element={<MobileApp/>} />
-        <Route path="/MobilePhone" element={<MobilePhone/>} />
-        <Route path="/PenetrationTest" element={<PenetrationTest/>} />
-        <Route path="/SoftwareMaintainance" element={<SoftwareMaintainance/>} />
-        <Route path="/SoftwareReeng" element={<SoftwareReeng/>} />
-        <Route path="/SystemInte" element={<SystemInte/>} />
-        <Route path="/SystemAudit" element={<SystemAudit/>} />
-        <Route path="/Vulnerabilities" element={<Vulnerabilities/>} />
+        <Route path="/annual" element={<Annual/>} />
+        <Route path="/embedded" element={<Embedded/>} />
+        <Route path="/computer-forensics" element={<ComputerForensic/>} />
+        <Route path="/enterprise" element={<Enterprise/>} />
+        <Route path="/fraud" element={<Fraud/>} />
+        <Route path="/incidents" element={<Incidents/>} />
+        <Route path="/internet" element={<Internet/>} />
+        <Route path="/governance" element={<ItGovernance/>} />
+        <Route path="/mobile-app" element={<MobileApp/>} />
+        <Route path="/mobile-phone" element={<MobilePhone/>} />
+        <Route path="/penetration-test" element={<PenetrationTest/>} />
+        <Route path="/maintainance" element={<SoftwareMaintainance/>} />
+        <Route path="/re-engineering" element={<SoftwareReeng/>} />
+        <Route path="/intergration" element={<SystemInte/>} />
+        <Route path="/auditing" element={<SystemAudit/>} />
+        <Route path="/vulnerability" element={<Vulnerabilities/>} />
       </Routes>
     </div>
   );
