@@ -47,8 +47,6 @@ function PenetrationTest() {
                 text5 = "Non-compliance can result in your organization losing business, receiving heavy fines, gathering bad PR or ultimately failing."
             />
 
-
-
         </div>
         <div className='c-right'>
             <div className='above'>

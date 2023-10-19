@@ -45,7 +45,7 @@ function SoftwareMaintainance() {
                 text7 = "Post-release Support, Operational and Helpdesk Support"
                 text8 = "Packaged Software Maintenance, Website Maintenance, Custom Application Maintenance, Long-term Maintenance"
                 text9 = "Application Enhancements & Performance Enhancements"
-                text10 = "Porting, Software Re-engineering, Request Based Software Services, Bug Fixes, Defect Resolution, Change Request Handling, Configuration management, Status Reports are some of the other application software maintenance and support services that Magilatech can provide."
+                text10 = "Porting, Software Re-engineering, Request Based Software Services, Bug Fixes, Defect Resolution, Change Request Handling, Configuration management, Status Reports are some of the other application software maintenance and support services that DSG Technology can provide."
             />
 
             <ContentServiceData2
@@ -55,13 +55,6 @@ function SoftwareMaintainance() {
             <ContentServiceData1
                 text1 = "Our affordable software maintenance and support services ensure efficient project management and minimal software downtime. You can choose from our suite of software development services depending on your requirements in terms of support levels, pricing, and project delivery options; we guarantee you an efficient and hassle-free engagement. Revitalize your software infrastructure and prepare it for your future business future challenges by outsourcing your software maintenance and support services to DSG Technology."
             />
-
-            {/* <ContentServiceData2
-                header3 = ""
-                text1 = ""
-            /> */}
-
-
 
         </div>
         <div className='c-right'>

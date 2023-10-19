@@ -38,7 +38,7 @@ function AiBig() {
                 text4 = "Our DSG Technology team of AI experts makes sure that these advanced solutions are implemented in a manner that they deliver maximum benefits."
                 text5 = "We tender flawless integration of the advanced AI solutions into the existing business model of the client to maximize the ROI."
             />
-
+            
             <ContentServiceData2
                 header3 = "Our AI Solutions in DSG Technology"
             />

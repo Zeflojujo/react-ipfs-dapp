@@ -26,7 +26,6 @@ function Vulnerabilities() {
             <ContentServiceData2
                 header3 = "As DSG Technology We Offer these types of Vulnerability Assessment"
             />
-            
 
             <ContentServiceData3
                 head1 = "Host assessment "

@@ -18,13 +18,11 @@ function Fraud() {
                 text2 = 'We work with many types of organizations including public and private entities, nonprofit organizations, governmental entities and a variety of industries. Our practice includes work with attorneys in both civil and criminal lawsuits.'
             />
 
-
-
         </div>
         <div className='c-right'>
             <div className='above'>
                 <h4>About</h4>
-                <p>In 2012, DSG Technology was founded with a clear mission to transform software development and cybersecurity solutions in Africa and beyond. Since its inception, Magilatech has grown from a startup incubatee, to a high growth technology company serving clients across the globe.</p>
+                <p>In 2012, DSG Technology was founded with a clear mission to transform software development and cybersecurity solutions in Africa and beyond. Since its inception, DSG Technology has grown from a startup incubatee, to a high growth technology company serving clients across the globe.</p>
             </div>
 
             <div className='below'>

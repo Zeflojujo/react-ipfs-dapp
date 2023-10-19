@@ -40,30 +40,6 @@ function CustomDev() {
                 text6 = "It's not enough to just build a piece of software, you need to know if it's achieving it's purpose - analytics can provide the information. There is usually tons of data and it may become overwhelming to try and make sense of it. An analytics dashboard provides information to users in a visual, easily understood format. We have helped dozens of businesses gain actionable insights through custom dashboards that display key metrics."
             />
 
-            <ContentServiceData3
-                head1 = ""
-                head2 = ""
-                head3 = ""
-                head4 = ""
-                head5 = ""
-                head6 = ""
-                head7 = ""
-                head8 = ""
-                head9 = ""
-                head10 = ""
-                text1 = ""
-                text2 = ""
-                text3 = ""
-                text4 = ""
-                text5 = ""
-                text6 = ""
-                text7 = ""
-                text8 = ""
-                text9 = ""
-                text10 = ""
-            />
-
-
             <ContentServiceData2
                 header3 = 'Outsource Custom Software Development from DSG Technology'
             />
