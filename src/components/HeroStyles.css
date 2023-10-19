@@ -33,13 +33,14 @@ img{
 }
 
 .hero-text h1 {
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-weight: 500;
     background-color: #eee;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
 }
+
 .hero-text p{
     font-size: 1.3rem;
     color: #ccc;
@@ -71,9 +72,7 @@ img{
     }
     
     .hero-text h1 {
-        font-size: 3rem;
         font-weight: 500;
-        background-color: #eee;
         padding: 0 0 1.5rem 0;
         font-size: 2.5rem;
     }
@@ -91,10 +90,21 @@ img{
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 550px) {
 
     .hero-text {
         position: absolute;
         width: 70% !important;
+    }
+
+    .hero-text h1 {
+        font-weight: 500;
+        padding: 0 0 1.5rem 0;
+        font-size: 2.1rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+        padding: 0 0 1rem 0;
     }
 }
