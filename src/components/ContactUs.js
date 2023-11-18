@@ -11,6 +11,7 @@ function ContactUs () {
         </div>
         <hr className="horizontalLine"/>
         </>
+        
     )
 }
 
